@@ -81,7 +81,7 @@ const PinDetail = ({ user }) => {
       <img
         src={pinDetail?.image?.asset?.url}
         alt='pin-image'
-        className='w-full rounded-t-3xl rounded-b-lg'
+        className='w-full rounded-t-3xl rounded-b-lg max-h-[600px] object-contain'
       />
 
       <div className='flex flex-col p-5 gap-2'>
