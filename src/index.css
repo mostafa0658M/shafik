@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cl-internal-b3fm6y, .cl-footer, .cl-profileSection__danger {
+    display: none;
+}
+.transition-smooth{
+    @apply duration-300 ease-in-out
+}
+.text-input ~ label{
+    cursor: text;
+}
+.text-input:focus ~ label{
+    @apply text-blue-500
+}
+.text-input:focus ~ label,
+.text-input:valid ~ label
+{
+    @apply text-sm py-0;
+    transform: translateY(-50%);
+}
+::-webkit-scrollbar{
+    display: none;
+}
