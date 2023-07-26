@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { client, urlFor } from "../client";
-import { MdDownload, MdFileDownload } from "react-icons/Md";
+import { MdDownload, MdFileDownload } from "react-icons/md";
 import { v4 as uuidv4 } from "uuid";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { AiFillHeart, AiTwotoneDelete } from "react-icons/ai";
