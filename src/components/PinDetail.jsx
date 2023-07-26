@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { MdDownload, MdFileDownload } from "react-icons/Md";
+import { MdDownload, MdFileDownload } from "react-icons/md";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import { client } from "../client";
